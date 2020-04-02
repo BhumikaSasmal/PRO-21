@@ -11,7 +11,7 @@ function setup() {
   sunImg= loadImage("images/sun.jpg");
   sun.setCollider("circle",85,60,140);
   sun.scale=0.3
-
+//creating the mercury sprite
   mercury = createSprite(400,400,50,50);
   mercuryImg = loadImage("images/me.png");
   
